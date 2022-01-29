@@ -1,0 +1,11 @@
+name             'teste'
+maintainer       'teste'
+maintainer_email 'teste'
+license          'All rights reserved'
+description      'teste'
+version          '1.0.0'
+supports         'linux'
+supports         'amazon'
+depends          '-'
+chef_version     '~> 14'
+privacy          true
