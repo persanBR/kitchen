@@ -1,11 +1,7 @@
-name             'teste'
-maintainer       'teste'
-maintainer_email 'teste'
-license          'All rights reserved'
-description      'teste'
-version          '1.0.0'
-supports         'linux'
-supports         'amazon'
-depends          '-'
-chef_version     '~> 14'
-privacy          true
+name        "test"
+description "test"
+maintainer  "AWS OpsWorks"
+license     "Apache 2.0"
+version     "1.0.0"
+
+recipe "test::teste", "teste test"
