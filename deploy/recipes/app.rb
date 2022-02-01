@@ -1,5 +1,6 @@
 ##PS.: The app should not run as root for security reassons
 ##PS.: This should be modularized, this recipe is doing too much stuff
+##PS.: The app output should be sent do the log dir and this should be consumed by c.w
 
 bash 'app_setup' do
   user 'root'
